@@ -1,0 +1,37 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+body{
+	text-align: center;
+	background:#1c1c1c;
+}
+canvas{
+	background:#FFF;
+	box-shadow:20px 20px 50px #1c1c1c;
+	transition:transform 1s;
+	-webkit-transition:-webkit-transform 1s;
+	-moz-transition:-moz-transform 1s;
+	-o-transition:-o-transform 1s;
+	-ms-transition:-ms-transform 1s;
+}
+#canvasDiv{
+	margin:150px auto 10px;
+}
+button{
+	border:0;
+	margin: 0;
+	width: 308px;
+	height: 50px;
+	background:#FFF;
+} 
+a{
+	text-decoration: none;
+	color: #1c1c1c;
+	font:20px tahoma;
+}
+button:hover{
+	opacity: 0.7;
+	cursor: pointer;
+}
